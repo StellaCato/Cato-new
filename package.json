@@ -1,13 +1,21 @@
 {
-  "name": "admin-bot-completo",
+  "name": "bot-sombrero-de-paja",
   "version": "1.0.0",
+  "description": "Bot de administración para WhatsApp con temática anime - creado por Stella Cato",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ."
   },
+  "keywords": ["whatsapp", "bot", "anime", "administración", "roleplay"],
+  "author": "Stella Cato",
+  "license": "MIT",
   "dependencies": {
-    "whatsapp-web.js": "^1.18.4",
+    "whatsapp-web.js": "^1.21.1",
     "qrcode-terminal": "^0.12.0",
-    "fs-extra": "^11.1.1"
-  }
+    "fs-extra": "^11.1.1",
+    "chalk": "^5.2.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
 }
